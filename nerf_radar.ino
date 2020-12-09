@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <Adafruit_SSD1306.h>
 
-Adafruit_SSD1306 display(128, 32, &Wire, -1);
+Adafruit_SSD1306 display(128, 32, &Wire, -1);// Change it according to your OLED display size
 // 'Nerf-Logo', 128x32px
 const unsigned char logo [] PROGMEM = {
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
